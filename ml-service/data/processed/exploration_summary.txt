@@ -1,0 +1,25 @@
+============================================================
+DATASET EXPLORATION SUMMARY
+============================================================
+
+Total samples: 10,000
+Features: ['UDI', 'Product ID', 'Type', 'Air temperature [K]', 'Process temperature [K]', 'Rotational speed [rpm]', 'Torque [Nm]', 'Tool wear [min]', 'Machine failure', 'TWF', 'HDF', 'PWF', 'OSF', 'RNF', 'Multiple_Failures']
+
+Class Distribution:
+  Normal: 9,661 (96.61%)
+  Failure: 339 (3.39%)
+
+Correlation with Machine Failure:
+  Torque [Nm]: 0.1913
+  Tool wear [min]: 0.1054
+  Air temperature [K]: 0.0826
+  Process temperature [K]: 0.0359
+  UDI: -0.0229
+  Rotational speed [rpm]: -0.0442
+
+Failure Type Counts:
+  TWF: 46
+  HDF: 115
+  PWF: 95
+  OSF: 98
+  RNF: 19
